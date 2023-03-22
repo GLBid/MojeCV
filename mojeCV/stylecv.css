@@ -1,0 +1,351 @@
+html {
+  background-color: rgb(34, 32, 32);
+  list-style: none;
+}
+header {
+  position: absolute;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+header ul {
+  text-decoration: none;
+  justify-content: space-around;
+  width: 60%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.guzik {
+  color: rgb(43, 26, 7);
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.imie {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 50px;
+  margin: 10px;
+  margin-left: -730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 300px;
+  background-color: rgb(160, 101, 101);
+  color: azure;
+  font-size: 35px;
+  border-radius: 20px;
+  font-weight: 100;
+  box-shadow: 5px 5px rgb(187, 187, 187);
+}
+
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  padding-top: 220px;
+  height: 1000px;
+  width: 1000px;
+}
+
+.tile {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(62, 62, 235);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 10px;
+  transition: 0.4s;
+}
+
+.tile2 {
+  background-color: rgb(235, 62, 62);
+}
+
+.tile:hover {
+  background-color: rgb(25, 204, 204);
+  width: 470px;
+  height: 470px;
+  margin: 5px;
+}
+
+.tile3 {
+  background-color: rgb(62, 226, 56);
+}
+
+.tile4 {
+  background-color: rgb(215, 226, 56);
+}
+
+.guzik:hover {
+  font-size: 50px;
+  color: black;
+}
+
+.kontakt {
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
+
+.dane {
+  height: 100px;
+  border-radius: 25px;
+  text-align: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(194, 180, 161);
+  font-size: 30px;
+  position: absolute;
+  top: 90px;
+  transition: 1s;
+}
+
+li .dane {
+  text-decoration: none;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+}
+
+.dane img {
+  display: flex;
+  width: 15%;
+  height: 15%;
+}
+
+.container1 {
+  border-radius: 40px;
+  background-color: rgb(43, 40, 40);
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  height: 800px;
+  width: 850px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container0 {
+  display: flex;
+  align-items: center;
+
+  height: 90%;
+  width: 90%;
+}
+
+h1 {
+  width: 40%;
+  height: 10%;
+  font-weight: 100;
+  font-size: 55px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: antiquewhite;
+}
+
+.container1 p {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: rgb(189, 202, 212);
+  padding-right: 20px;
+  font-size: 24px;
+}
+
+.joke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -360px;
+  background-color: rgb(69, 100, 69);
+  border-radius: 40px;
+  height: 400px;
+  width: 900px;
+  margin-left: 80px;
+}
+
+.joke p {
+  display: flex;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.joke button {
+  margin-left: 20px;
+  display: flex;
+  height: 28%;
+  width: 20%;
+  box-shadow: 7px 7px;
+  justify-content: center;
+  border-radius: 100%;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: rgb(165, 133, 163);
+}
+
+.zart {
+  font-size: 25px;
+  margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 40%;
+  background-color: antiquewhite;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 150px;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  position: absolute;
+  top: 250px;
+}
+
+.container2 {
+  position: absolute;
+  top: 1200px;
+  margin-left: 40px;
+  border-radius: 40px;
+  background-color: rgb(43, 40, 40);
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  height: 300px;
+  width: 890px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hobby {
+  position: absolute;
+  top: 1055px;
+  left: 990px;
+  border-radius: 40px;
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  height: 450px;
+  width: 1100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  height: 45%;
+  margin: 10px;
+  background-color: rgb(39, 27, 27);
+  border-radius: 30px;
+}
+
+.hobby h1 {
+  position: absolute;
+  top: 150px;
+  left: 430px;
+}
+
+.none {
+  display: none;
+}
+
+.hobby:hover {
+  background-color: rgb(129, 129, 129);
+  height: 460px;
+  width: 1110px;
+  margin: -10px;
+}
+
+.mh {
+  top: 1px;
+}
+
+.hobo {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+.hoboactive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies p {
+  margin-left: 10px;
+  color: antiquewhite;
+  font-size: 19px;
+}
+
+i {
+  font-size: 100px;
+}
+
+a {
+  color: rgb(14, 53, 53);
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 45%;
+  height: 45%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 10px;
+  transition: 0.4s;
+}
+
+.zalety {
+  flex-wrap: wrap;
+  border-radius: 40px;
+  display: flex;
+  top: 690px;
+  position: absolute;
+  left: 2180px;
+  background-color: rgb(46, 56, 56);
+  width: 25%;
+  height: 54%;
+}
+
+.zalety h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.zalety p {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
